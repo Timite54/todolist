@@ -1,0 +1,199 @@
+*{  
+    font-family: 'Verdana', 'Geneva', 'Tahoma';
+    margin: 0;
+    padding: 0;
+
+}
+
+.ajout{
+    background-color: #5e5c64;
+      font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* background-color: #f5f5f5; */
+            /* flex-direction: column; */
+            /* background-color: #f5f5f5; */
+            min-height: 100vh;
+}
+
+.mestaches{
+    display: inline-block;
+    background-color: #241F31;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    /* background-color: #fff; */
+   border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    height: 600px;
+    width: 600px;    
+    background-color: #99C1F1;
+    color: rgb(82, 79, 79);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 4;
+
+}
+
+.enter form {
+    display: flex;
+    flex-direction: column;
+    margin: -200px auto;
+
+
+}
+
+.enter label {
+    margin-bottom: 10px;
+    /* font-size: 1em; */
+        }
+
+
+.enter .radio-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -40px;
+}
+
+.enter .radio-group label{
+    margin-right: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+
+}
+
+.enter .radio-group input[type="radio"]{
+    transform: scale(1.5);
+    margin-right: 5px;
+    background-color: black;
+}
+
+.enter .radio-group input[type="radio"]:checked{
+    background-color: black;
+}
+
+.enter input{
+    padding: 15px 60px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+    background: #73b5c9;
+    font-size: 1em;  
+    color: #fdfdfdb0;
+    font-weight: 700;
+    font-size: larger;
+
+} 
+
+.enter input[type="submit"]{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    cursor: pointer;
+    padding: 6px; 
+    border-radius: 10px;
+    margin: 70px auto;
+    height: 50px;
+    width: 100%;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 800;
+    color: initial;
+    background-color: #73b5c9;
+    
+}
+
+.enter h1{
+    display: flex;
+    font-size: 3em;
+    text-shadow: 2px 1px 6px #fff;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/******************** LISTE DES TACHE *************************/
+
+
+.tasks {
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 150px ;
+    width: 400px;
+    text-align: center;
+    margin: 20px auto 10px 200px;
+    color: #9A9996; 
+    line-height: 2;
+}
+
+.task {
+    margin: 15px auto ;
+
+}
+
+.add-task-button {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.add-task-button a button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0px auto 20px 200px;
+}
+
+.add-task-button a button:hover {
+    background-color: #45a049;
+}
+
+
+.task a .delete{
+            background-color: #45a049;
+            color: #b4b3ae;
+            padding: 3px 12px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+       
+.task a .edit:hover {
+            background-color: blue;
+            color: aliceblue;
+            font-weight: 600;
+        }
+
+.task a .delete:hover{
+    background-color: rgb(255, 14, 14);
+}
+
+
